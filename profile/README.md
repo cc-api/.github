@@ -16,9 +16,9 @@ CC Trusted API is designed to reduce the challenge of:
 
 - collecting trust measurements for **different frameworks** like confidential VM,
 [confidential cluster](https://github.com/edgelesssys/constellation), [confidential container](https://github.com/confidential-containers) etc
-![](./cloud_frameworks.png)
+![](/profile/cloud_frameworks.png)
 - accessing trust measurements from the **different TEEs** like Intel TDX, AMD SEV etc
-![](./TEEs.png)
+![](/profile/TEEs.png)
 
 Fine mores SDK/Services to calculate measurements:
 
