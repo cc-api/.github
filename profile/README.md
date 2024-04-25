@@ -42,3 +42,4 @@ _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use
 
 - [Full Disk Encryption](https://github.com/cc-api/full-disk-encryption)
 - [Confidential Cloud Native AI Pipeline](https://github.com/intel/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md)
+- [Confidential Cluster](https://github.com/cc-api/confidential-cluster)
