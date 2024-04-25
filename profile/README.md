@@ -21,7 +21,7 @@ like Intel TDX, AMD SEV etc
 **different frameworks** like confidential VM,
 [confidential cluster](https://github.com/edgelesssys/constellation), [confidential container](https://github.com/confidential-containers) etc
 
-![](/profile/ccnp_deployment.png.png)
+![](/profile/ccnp_deployment.png)
 
 _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use-cases._
 
