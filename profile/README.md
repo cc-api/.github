@@ -27,7 +27,7 @@ like Intel TDX, AMD SEV etc
 
 ![](/profile/cloud_measurements.png)
 
-1. Fine mores:
+## 3. Fine mores:
 
-   - Virtual Machine: [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk)
-   - Cloud Native: [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives)
+- Virtual Machine: [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk)
+- Cloud Native: [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives)
