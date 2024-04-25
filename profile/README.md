@@ -12,15 +12,22 @@ It serves as a central gathering place for specs, documentation, and ideas.
 
 ### 2.1 CC Trusted API
 
-CC Trusted API is designed to access trust measurements **across different TEEs**
+1. CC Trusted API is designed to access trust measurements **across different TEEs**
 like Intel TDX, AMD SEV etc
+
 ![](/profile/TEEs.png)
 
-Meanwhile, the SDK & services are designed to collect trust measurements across
+2. SDK & services are designed to collect trust measurements across
 **different frameworks** like confidential VM,
 [confidential cluster](https://github.com/edgelesssys/constellation), [confidential container](https://github.com/confidential-containers) etc
+
 ![](/profile/cloud_frameworks.png)
 
-Fine mores:
-- Virtual Machine: [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk)
-- Cloud Native: [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives)
+3. Cloud measurement will be saved into TEE's report/quote as follow example:
+
+![](/profile/cloud_measurements.png)
+
+1. Fine mores:
+
+   - Virtual Machine: [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk)
+   - Cloud Native: [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives)
