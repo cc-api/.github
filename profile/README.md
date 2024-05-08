@@ -38,7 +38,10 @@ _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use
 
 ## 2.3 Tools
 
-- [CC Measure](https://github.com/cc-api/cc-measure): Dump and debug the measurement (TCG event log). (_Replace original [pytdxmeasure](https://pypi.org/project/pytdxmeasure/)_)
+| Tool | Description |
+| ---- | ----------- |
+| [CC Measure](https://github.com/cc-api/cc-measure) | Dump and debug the measurement (TCG event log). (_Replace original [pytdxmeasure](https://pypi.org/project/pytdxmeasure/)_) |
+| [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) | Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.|
 
 # 3. Solutions
 
