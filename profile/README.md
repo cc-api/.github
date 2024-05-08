@@ -1,6 +1,8 @@
 
 # Welcome to Confidential Computing API Group
 
+Collaboration at [slack](https://app.slack.com/huddle/T070GF9PKTQ/C0708HZ9087)
+
 ## 1 Goal
 
 The CC (Confidential Computing) API Group is a community of people interested in
@@ -43,3 +45,8 @@ _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use
 - [Full Disk Encryption](https://github.com/cc-api/full-disk-encryption)
 - [Confidential Cloud Native AI Pipeline](https://github.com/intel/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md)
 - [Confidential Cluster](https://github.com/cc-api/confidential-cluster)
+
+# 4. Community
+
+- 2024/05/07 [CCC Attestation SIG] Q&A Update f ([Video](https://www.youtube.com/watch?v=qoAOXZpdz38), Slide)
+- 2024/04/23: [CCC Attestation SIG] Initial discussion ([Video](https://www.youtube.com/watch?v=63Qgr695xSg), [Slide](https://github.com/CCC-Attestation/meetings/blob/main/materials/KenLu_CC_API.pdf))
