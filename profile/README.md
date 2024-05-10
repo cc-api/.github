@@ -33,8 +33,10 @@ _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use
 
 ## 2.2 SDKs
 
-- Virtual Machine: [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk)
-- Cloud Native: [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives)
+| SDK | Repository |
+| --- | ---------- |
+| Virtual Machine | [cc-trusted-vmsdk](https://github.com/cc-api/cc-trusted-vmsdk) |
+| Cloud Native | [confidential cloud native primitive (CCNP)](https://github.com/cc-api/confidential-cloud-native-primitives) |
 
 ## 2.3 Tools
 
@@ -42,19 +44,24 @@ _NOTE: Please refer to https://www.redhat.com/en/blog/confidential-computing-use
 | ---- | ----------- |
 | [CC Measure](https://github.com/cc-api/cc-measure) | Dump and debug the measurement (TCG event log). (_Replace original [pytdxmeasure](https://pypi.org/project/pytdxmeasure/)_) |
 | [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) | Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.|
+| [CC Cloud Automation](https://github.com/cc-api/cc-cloud-automation) | Automation framework & tools which supporting diverse confidential cloud flavors like confidential VM/cluster/container/FaaS etc.|
 
 # 3. Solutions
 
-- [Full Disk Encryption](https://github.com/cc-api/full-disk-encryption)
-- [Confidential Cloud Native AI Pipeline](https://github.com/intel/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md)
-- [Confidential Cluster](https://github.com/cc-api/confidential-cluster)
+| Solution | Description |
+| -------- | ----------- |
+| [Full Disk Encryption](https://github.com/cc-api/full-disk-encryption) | Full disk encryption via remote attestation in CC environment without manual key provision |
+| [Confidential Cloud Native AI Pipeline](https://github.com/intel/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md) | Protect the AI model via E2E measurement and attestation, refer [here](https://github.com/cc-api/cloud-native-ai-pipeline/blob/main/docs/How_to_Protect_AI_Models_in_Cloud_Native_Environments.md) |
+| [Confidential Cluster](https://github.com/cc-api/confidential-cluster) | Help E2E trust measurement for existing confidential cluster |
 
 # 4. Community
 
 | Date | Description |
 | ---- | ----------- |
 | 2024/05/07 | [CCC Attestation SIG] Q&A Update ([Video](https://www.youtube.com/watch?v=qoAOXZpdz38), Slide) |
+| 2024/05/01 | [Linux OneSummit] [Zero Trust Architecture for AI Workload on Edge](https://onesummit2024.sched.com/event/1YUs1/zero-trust-architecture-for-ai-workload-on-edge-wenhui-zhang-bytedance-ken-lu-intel?iframe=no)
 | 2024/04/23 | [CCC Attestation SIG] Initial discussion ([Video](https://www.youtube.com/watch?v=63Qgr695xSg), [Slide](https://github.com/CCC-Attestation/meetings/blob/main/materials/KenLu_CC_API.pdf)) |
+| 2023/11/16 | [CCC TAG] Initial proposal ([Video](https://www.youtube.com/watch?v=Ia2uhSelFnM&list=PLmfkUJc39uMjaB_I1dYW72I44kr9QzG_B&index=11), [Slide](https://github.com/confidential-computing/governance/blob/main/TAC/Meetings/2023/2023-11-16/CCC%20TAC-2023-11-16-CCAPI-CCC-Proposal-TechTalk.pptx.pdf))
 | 2022/09/12 | [Linux Plumbers Conference] [Secure Bootloader for Confidential Computing](https://lpc.events/event/16/contributions/1260/attachments/932/1950/Secure%20bootloader%20for%20Confidential%20Computing%20-%20LPC.pdf) |
 
 # 5. Papers
