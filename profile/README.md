@@ -16,17 +16,17 @@ Goals:
 
 ## Getting Started
 
-- [Quick start]((https://github.com/cc-api/confidential-cloud-native-primitives/blob/main/deployment/README.md)) of preparing CVM guest image, creating CVM, gathering measurement and eventlogs for containers.
-- Tools for CVM image customization and measurement gathering.
-    - [CC Measure](https://github.com/cc-api/cc-measure) - CLi tools of gathering measurement, eventlogs and verifying eventlogs for CVM. 
-    - [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) - Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.
-    - [CC Cloud Automation](https://github.com/cc-api/cc-cloud-automation) - Automation framework & tools which supporting diverse confidential cloud flavors like confidential VM/cluster/container/FaaS etc.
+- [CCNP Quick Start](https://github.com/cc-api/confidential-cloud-native-primitives/blob/main/deployment/README.md) of preparing CVM guest image, creating CVM, gathering measurement and eventlogs for containers.
+- [CC Measure](https://github.com/cc-api/cc-measure) - CLI tools of gathering measurement, eventlogs and verifying eventlogs for CVM. 
+- [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) - Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.
+- [CC Cloud Automation](https://github.com/cc-api/cc-cloud-automation) - Automation framework & tools which supporting diverse confidential cloud flavors like confidential VM/cluster/container/FaaS etc.
 
 ## More Information
 
 - [CC Trusted API purpose](https://github.com/cc-api/cc-trusted-api/wiki)
 - [CCNP Design and Architecture](https://cc-api.github.io/confidential-cloud-native-primitives/)
 - [Container Measurement Design](https://github.com/ruomengh/confidential-cloud-native-primitives/blob/main/docs/container-measurement-design.md)
+- [Community Activities](community.md)
 
 
 ## Join the community
