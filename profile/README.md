@@ -26,7 +26,7 @@ Goals:
 - [CC Trusted API purpose](https://github.com/cc-api/cc-trusted-api/wiki)
 - [CCNP Design and Architecture](https://cc-api.github.io/confidential-cloud-native-primitives/)
 - [Container Measurement Design](https://github.com/ruomengh/confidential-cloud-native-primitives/blob/main/docs/container-measurement-design.md)
-- [Community Activities](../profile/community.md)
+- [Community Activities](https://github.com/cc-api/.github/blob/main/profile/community.md)
 
 
 ## Join the community
