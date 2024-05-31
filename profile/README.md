@@ -19,14 +19,22 @@ Goals:
 - [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) - Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.
 - [CC Cloud Automation](https://github.com/cc-api/cc-cloud-automation) - Automation framework & tools which supporting diverse confidential cloud flavors like confidential VM/cluster/container/FaaS etc.
 
+Please find more introduction to the repositories [here](https://github.com/cc-api/community/blob/main/repository.md).
+
+
+## Join the community
+
+- Slack - Join `CC API` [slack channel](https://cc-api.slack.com/archives/C0708HZ9087).
+
+
+## Community Meetings
+
+- Please join the biweekly community meetings. The meeting calendar and agenda can be found [here](https://github.com/cc-api/community/blob/main/meetings/README.md)
+
+
 ## More Information
 
 - [CC Trusted API Introduction](https://github.com/cc-api/cc-trusted-api/wiki)
 - [Container Measurement Design](https://github.com/cc-api/confidential-cloud-native-primitives/blob/main/docs/container-measurement-design.md)
 - [CCNP Architecture](https://cc-api.github.io/confidential-cloud-native-primitives/)
 - [Community Activities](https://github.com/cc-api/.github/blob/main/profile/community.md)
-
-
-## Join the community
-
-- Slack - Join `CC API` [slack channel](https://cc-api.slack.com/archives/C0708HZ9087).
