@@ -34,7 +34,7 @@ Please find more introduction to the repositories [here](https://github.com/cc-a
 
 ## More Information
 
-- [CC Trusted API Introduction](https://github.com/cc-api/evidence-api/wiki)
+- [Evidence API Introduction](https://github.com/cc-api/evidence-api/wiki)
 - [Container Measurement Design](https://github.com/cc-api/container-integrity-measurement-agent/blob/main/docs/container-measurement-design.md)
-- [CCNP Architecture](https://cc-api.github.io/confidential-cloud-native-primitives/)
+- [Container Measurement Architecture](https://github.com/cc-api/container-integrity-measurement-agent)
 - [Community Activities](https://github.com/cc-api/.github/blob/main/profile/community.md)
