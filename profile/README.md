@@ -29,7 +29,7 @@ Please find more introduction to the repositories [here](https://github.com/cc-a
 
 ## Community Meetings
 
-- Please join the biweekly community meetings. The meeting calendar and agenda can be found [here](https://github.com/cc-api/community/blob/main/meetings/README.md).
+- Welcome to join the community meetings. The meeting calendar and agenda can be found [here](https://github.com/cc-api/community/blob/main/meetings/README.md).
 
 
 ## More Information
