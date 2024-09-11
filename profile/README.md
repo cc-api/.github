@@ -6,16 +6,30 @@ The CC (Confidential Computing) API Group is a community to accelerate the adopt
 Welcome to contribute efforts for a common goal of confidential computing technology adoption!
 
 
-Goals:
-    
-- Define unified and vendor agnostic APIs for cloud workloads measurement gathering running on diverse TEE vendors. APIs being defined and implemented are about evidence gathering, which can be found in the [spec](https://docs.google.com/document/d/1nO0y3GgnUKGBG7VEwGfzc6ndhArGzWFcULhYEb0-zrg/edit) and [evidence-api](https://github.com/cc-api/evidence-api). Welcome to propose and define more APIs. 
-- Provide frameworks to gether [node level evidence](https://github.com/cc-api/cc-trusted-vmsdk) and [container level evidence](https://github.com/cc-api/container-integrity-measurement-agent) for workloads. The evidence can be used to complete remote attestation or other verification based on the business needs.
-- Provide easy-to-use tools and examples of building trust chain in multiple deloyment flavors of confidential computing environments.
+## Goals
+
+
+
+1. Define **unified and vendor agnostic APIs** to collect evidences cross cloud architecture which can be found in the [spec](https://docs.google.com/document/d/1nO0y3GgnUKGBG7VEwGfzc6ndhArGzWFcULhYEb0-zrg/edit) and [evidence-api](https://github.com/cc-api/evidence-api). Welcome to propose and define more APIs.
+
+    ![](./goal-cc-api.png)
+
+2. Provide **stacked measurement frameworks** to gether [node level evidence](https://github.com/cc-api/cc-trusted-vmsdk) and [container level evidence](https://github.com/cc-api/container-integrity-measurement-agent) for workloads. The evidence can be used to complete remote attestation or other verification based on the business needs.
+
+    ![](./goal-measurement-framework.png)
+
+3. Provide **easy-to-use tools** and examples of building trust chain in multiple deloyment flavors of confidential computing environments.
+
+    ![](./cc-tools.png)
+
+4. Provide the reference design of **confidential AI/GenAI loader** on model/data protections.
+
+    ![](./confidential-ai-protections.png)
 
 ## Getting Started
 
 - [Container Measurement Quick Start](https://github.com/cc-api/container-integrity-measurement-agent/blob/main/deployment/README.md) - how to prepar a CVM guest image, create a CVM and gather measurement, eventlogs for containers.
-- [CC Measure Tool for Node Measurement](https://github.com/cc-api/cc-measure) - CLI tools of gathering measurement, eventlogs and verifying eventlogs for CVM. 
+- [CC Measure Tool for Node Measurement](https://github.com/cc-api/cc-measure) - CLI tools of gathering measurement, eventlogs and verifying eventlogs for CVM.
 - [CVM Image Rewriter](https://github.com/cc-api/cvm-image-rewriter) - Create and customize the confidential VM's qcow2 image including IMA policy, initrd, device permission etc.
 - [CC Cloud Automation](https://github.com/cc-api/cc-cloud-automation) - Automation framework & tools which supporting diverse confidential cloud flavors like confidential VM/cluster/container/FaaS etc.
 
