@@ -15,9 +15,8 @@ Welcome to contribute efforts for a common goal of confidential computing techno
     </p>
 
     _NOTE:_
-    - Please get detail [confidential use cases](Confidential computing use cases
-) for confidential virtual machine (CVM), confidential workload (CW), confidential containers (CCn), confidential cluster (CCl).
-    - Confidential Container is ignored here, because it can be regarded as "Confidential VM" from the perspective of measurement and attestation. And Confidential Container is not a good and recommended deployment type for a scalable kubernetes environment.
+    - Please get detail [Confidential computing use cases](https://www.redhat.com/en/blog/confidential-computing-use-cases) for confidential virtual machine (CVM), confidential workload (CW), confidential containers (CCn), confidential cluster (CCl).
+    - Confidential Container is ignored here, because it can be regarded as "Confidential VM" from the perspective of measurement and attestation. And Confidential Container is not a good and recommended deployment type for a scalable kubernetes environment due to long latency for POD startup.
 
 2. Provide **stacked measurement frameworks** to gether [node level evidence](https://github.com/cc-api/cc-trusted-vmsdk) and [container level evidence](https://github.com/cc-api/container-integrity-measurement-agent) for workloads. The evidence can be used to complete remote attestation or other verification based on the business needs.
 
